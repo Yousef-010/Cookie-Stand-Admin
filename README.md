@@ -7,3 +7,6 @@
 
 > Screen Shoot
 ![image](assets/cookie-stand-admin-version-1.png)
+
+> version 2
+![image](assets/screenShot.png)

@@ -1,7 +1,7 @@
-export default function Footer() {
+export default function Footer({cookieState}) {
   return (
     <footer className='px-7 py-2 mt-16 font-medium text-gray-700 bg-emerald-500'>
-       <p> &copy; 2021 </p>
+       <p>{cookieState? cookieState.length : 0 } Locations World Wide </p>
     </footer>
   )
 }
