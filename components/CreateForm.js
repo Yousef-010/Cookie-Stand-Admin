@@ -1,7 +1,6 @@
 
 export default function CreateForm({formHandler}) {
-     
-  return (
+    return (
     <>
       <div className='w-full max-w-screen-lg p-3 px-5 my-5 rounded-md bg-emerald-300'>
         <h1 className="text-2xl font-medium text-center">Create Cookie Stand</h1>

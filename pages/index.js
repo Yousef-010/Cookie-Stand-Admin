@@ -1,14 +1,16 @@
-// import Image from 'next/image'
-// import styles from '../styles/Home.module.css'
-
 import CookieStandAdmin from "../components/CookieStandAdmin";
-
+import { useAuth } from '../contexts/auth'
+import LoginForm from "../components/LoginForm";
 
 export default function Home() {
 
+  const {user, login} = useAuth()
+
   return (
     <>
-      <CookieStandAdmin />  
+      {
+        user? <CookieStandAdmin /> : <LoginForm OnLogin = {login}/>
+      }  
     </>
   )
 }
